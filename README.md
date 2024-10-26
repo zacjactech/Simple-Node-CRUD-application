@@ -1,2 +1,1 @@
-# To-Do-List-API
-Created with StackBlitz ⚡️
+# Simple Note-Taking App
