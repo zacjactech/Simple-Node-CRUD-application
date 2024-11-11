@@ -43,8 +43,9 @@ The following endpoints allow you to create, retrieve, update, and delete notes:
   - *Body*:
     ```json
     {
-      "title": "Note Title",
-      "content": "Note Content"
+      "name": "John Doe",
+      "phone": 1234567890,
+      "age": "Adult"
     }
     ```
 
@@ -58,8 +59,9 @@ The following endpoints allow you to create, retrieve, update, and delete notes:
   - *Body*:
     ```json
     {
-      "title": "Note Title",
-      "content": "Updated Note Content"
+      "name": "John Doe",
+      "phone": 1234567890,
+      "age": "Adult"
     }
     ```
 
@@ -69,7 +71,7 @@ The following endpoints allow you to create, retrieve, update, and delete notes:
   - *Body*:
     ```json
     {
-      "title": "Note Title"
+      "name": "John Doe"
     }
     ```
 
@@ -78,7 +80,7 @@ The following endpoints allow you to create, retrieve, update, and delete notes:
   - *Endpoint*: `/queryDB`
   - *Query Parameters*:
     ```
-    ?title=Note Title
+    ?name=John Doe
     ```
 
 # File Structure
